@@ -9,7 +9,8 @@
         "d3c0bb9f-63ec-4b6e-8027-efda26e4592a",
         "cdc33d0a-86ef-4a95-a28c-09076e2e7dd7",
         "ae373264-2ff1-4380-ae39-fe0e62d86e9b",
-        "64c21a88-5797-4c93-9b19-d4f3df966703"
+        "64c21a88-5797-4c93-9b19-d4f3df966703",
+        "aeb72a0f-afdc-4c26-8504-a48d98a3cd92"
     ],
     "filterType": "GMSprite",
     "folderName": "spr_interface",

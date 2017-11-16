@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "obj_int_soundsettings",
     "eventList": [
-        
+        {
+            "id": "84a20ab9-6f6d-4778-a76c-d3d2915d03be",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "822a7431-3283-409e-a81c-59d864da13e5"
+        },
+        {
+            "id": "727e4152-67bf-4988-a5b8-8606c870f1c2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "822a7431-3283-409e-a81c-59d864da13e5"
+        },
+        {
+            "id": "67ebd36c-da81-4162-b22d-7775ade6cfe1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 6,
+            "m_owner": "822a7431-3283-409e-a81c-59d864da13e5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

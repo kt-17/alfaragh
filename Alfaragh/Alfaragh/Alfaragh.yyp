@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "08acfbd6-bb7b-49a4-8a78-57e1d80006eb",
+            "Value": {
+                "id": "1e13f453-dae7-4fec-942f-a1b901d1d7ef",
+                "resourcePath": "rooms\\rm_mnu_gamesettings\\rm_mnu_gamesettings.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0f306063-2147-4702-8e36-39f960f39843",
             "Value": {
                 "id": "a541dc9e-f296-4411-a95d-581063c1740f",
@@ -76,6 +84,14 @@
                 "id": "3debba76-e568-4a7a-9564-6287a46ab8fa",
                 "resourcePath": "views\\3888c8d5-c3bb-4ce2-b7a3-c3de4faeb144.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "38d13ffa-6852-40fa-980e-9a878e657c13",
+            "Value": {
+                "id": "a76696bc-d59e-41cf-92fc-3a7a5886ed0e",
+                "resourcePath": "objects\\obj_collision\\obj_collision.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -199,6 +215,14 @@
             }
         },
         {
+            "Key": "aeb72a0f-afdc-4c26-8504-a48d98a3cd92",
+            "Value": {
+                "id": "06e1e080-0e2a-4284-889b-b97391721ddf",
+                "resourcePath": "sprites\\spr_collision\\spr_collision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b28c9076-c4c7-4f1a-89b1-6c7fbe45135b",
             "Value": {
                 "id": "0d10ef4d-9e4c-4888-b340-47b8afe4b48f",
@@ -276,6 +300,14 @@
                 "id": "47b5d5c5-407a-43ca-89de-da0d61a615f4",
                 "resourcePath": "sprites\\spr_int_volumebar\\spr_int_volumebar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e0c6bb81-9f0d-444a-91e3-0fb408492980",
+            "Value": {
+                "id": "e07653a5-26ea-4615-8033-3d38773f3e6a",
+                "resourcePath": "rooms\\rm_mnu_soundsettings\\rm_mnu_soundsettings.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
