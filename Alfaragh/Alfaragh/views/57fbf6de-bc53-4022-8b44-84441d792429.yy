@@ -14,7 +14,14 @@
         "13fa51d3-287d-4fca-8f7a-a303292e0aee",
         "dee28b83-964e-4601-90cb-3cf7adac4d3a",
         "47ba5db1-12fb-40d7-a1c5-a2596e1fce65",
-        "2d4a7278-69e8-4c82-993a-7ce00077693d"
+        "2d4a7278-69e8-4c82-993a-7ce00077693d",
+        "4aeaf4e9-1d4f-4899-809f-697312d2c39f",
+        "d8ffbf20-5f58-4a72-9887-74ac0cadd904",
+        "f8c8c3c7-b231-413d-a28b-044c383ac58d",
+        "457422bb-1b2c-46bd-a3ad-a403b971a342",
+        "0af0232d-f14d-430d-a6a2-87464171a750",
+        "6e7351b4-6fcc-4262-aaab-459f21ca204b",
+        "8317426e-3558-442b-a5b8-197da9016887"
     ],
     "filterType": "GMObject",
     "folderName": "obj_interface",
