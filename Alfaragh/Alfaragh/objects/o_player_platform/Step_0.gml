@@ -64,7 +64,7 @@ if not place_meeting(x,y+2, o_solid)
 	
 }
 
-if place_meeting(x,y+2, o_solid) 
+if place_meeting(x,y+2, o_solid)
 {
 	gravity = 0; 
 	
@@ -75,6 +75,13 @@ if place_meeting(x,y+2, o_solid)
 	
 		if place_meeting(x,y+2, o_solid) and keyboard_check(vk_space)
 	{
-		vspeed = -4;
+		if not place_meeting(x,y-8, o_solid)
+		{
+		vspeed = -6;
+		}
 	}
+}
+if place_meeting(x, y, o_solid)
+{
+	y -= 5;
 }
