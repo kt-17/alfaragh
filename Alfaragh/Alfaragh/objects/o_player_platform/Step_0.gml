@@ -57,17 +57,24 @@ if place_meeting(x, y, o_rpg_portal)
 	sprite_index =  s_player_idletoblock;
 	image_speed = 1;
  }
- 
- if ! place_meeting (x, y+4, o_solid)
- {
-	y += grav; 
- } else
- {
-	y = y;
+
+if not place_meeting(x,y+2, o_solid) 
+{
+	gravity = 0.5;
 	
-	 
- if (! place_meeting(x, y-16, o_solid) and keyboard_check(vk_space))
- {
-	y -= 16;
- }
- }
+}
+
+if place_meeting(x,y+2, o_solid) 
+{
+	gravity = 0; 
+	
+	if place_meeting(x,y+2, o_solid) 
+	{
+	vspeed = 0;
+	}
+	
+		if place_meeting(x,y+2, o_solid) and keyboard_check(vk_space)
+	{
+		vspeed = -4;
+	}
+}
