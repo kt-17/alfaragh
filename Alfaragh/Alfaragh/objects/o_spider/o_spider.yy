@@ -1,10 +1,19 @@
 {
-    "id": "6e7351b4-6fcc-4262-aaab-459f21ca204b",
+    "id": "c7ee9eb4-f1c7-411f-a226-06ca98030e77",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_kill",
+    "name": "o_spider",
     "eventList": [
-        
+        {
+            "id": "8e388647-14ef-45e4-b109-4d58801f21a0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c7ee9eb4-f1c7-411f-a226-06ca98030e77"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
@@ -22,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "a51f0d79-af37-4d2f-bae0-1e2acd03f61f",
+    "spriteId": "e4c89945-d385-472a-8bc0-4acebfb4b664",
     "visible": true
 }
