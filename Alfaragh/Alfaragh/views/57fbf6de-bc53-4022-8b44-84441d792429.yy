@@ -21,7 +21,8 @@
         "457422bb-1b2c-46bd-a3ad-a403b971a342",
         "0af0232d-f14d-430d-a6a2-87464171a750",
         "6e7351b4-6fcc-4262-aaab-459f21ca204b",
-        "8317426e-3558-442b-a5b8-197da9016887"
+        "8317426e-3558-442b-a5b8-197da9016887",
+        "19c2ce9b-b2b7-44fc-93a5-8c2464759549"
     ],
     "filterType": "GMObject",
     "folderName": "obj_interface",

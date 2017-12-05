@@ -2,7 +2,7 @@
 {
     "name": "rm_mnu_gamesettings",
     "id": "08acfbd6-bb7b-49a4-8a78-57e1d80006eb",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

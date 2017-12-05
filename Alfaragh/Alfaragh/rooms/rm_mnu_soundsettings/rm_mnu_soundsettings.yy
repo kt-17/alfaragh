@@ -2,7 +2,7 @@
 {
     "name": "rm_mnu_soundsettings",
     "id": "e0c6bb81-9f0d-444a-91e3-0fb408492980",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
