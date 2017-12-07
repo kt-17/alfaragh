@@ -27,39 +27,17 @@ if keyboard_check(ord("D")) and !place_meeting(x+4, y, o_solid) and! mouse_check
 	image_speed = 1;
  }
 
-if not place_meeting(x,y+2, o_solid) 
+if not place_meeting(x, y+2, o_solid)
 {
-	gravity = 0.5;
-	
-	if place_meeting(x,y+2, o_stop) 
-	{
-	vspeed = 4;
-	}
-	
+	gravity=.5
 }
 
-if place_meeting(x,y+2, o_solid)
+if place_meeting(x, y+2, o_solid)
 {
-	gravity = 0; 
-	
-	if place_meeting(x,y+2, o_solid) 
-	{
-	vspeed = 0;
-	}
-
-		if place_meeting(x,y+1, o_solid) and keyboard_check(vk_space)
-	{
-
-		if not place_meeting(x,y-5, o_stop)
-		{
-		vspeed = -10;
-		image_index = s_player_jump;
-		image_speed = 1;
-		}
-	}
+	gravity=0;
 }
 
-if place_meeting(x, y-1, o_solid) and! place_meeting(x, y-4, o_stop)
+if place_meeting(x, y, o_solid)
 {
-	y -= 10;
+	y -= 1;
 }
