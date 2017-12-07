@@ -45,8 +45,3 @@ if keyboard_check(ord("S")) and !place_meeting(x, y+4, o_solid)
  {
 	room_goto(7);
  }
- 
-  if place_meeting(x,y,o_rpg_portal)
- {
-	room_goto(5);
- }
