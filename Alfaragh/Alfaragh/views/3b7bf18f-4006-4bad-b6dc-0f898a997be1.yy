@@ -4,8 +4,9 @@
     "mvc": "1.1",
     "name": "3b7bf18f-4006-4bad-b6dc-0f898a997be1",
     "children": [
-        "a99b648d-bb8a-4da1-9a7c-7dd9f5c6c2b9",
-        "e4c89945-d385-472a-8bc0-4acebfb4b664"
+        "5fdbd1db-840a-4cbf-9ee8-9e69ebecc485",
+        "b65d0acc-2ee4-4c11-8391-f5360604700b",
+        "775b1673-b6f1-47c3-a069-fa5f96d0c799"
     ],
     "filterType": "GMSprite",
     "folderName": "Enemy Sprites",
