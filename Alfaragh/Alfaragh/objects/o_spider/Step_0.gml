@@ -1,4 +1,4 @@
-
+/*
 if place_meeting(x+10, y, o_player_platform)
 {
 	x += 1;
@@ -107,3 +107,5 @@ if place_meeting(x-1, y, o_player_platform)
 	x -= 1;
 	image_xscale = -10;
 }
+*/
+

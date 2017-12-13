@@ -17,6 +17,7 @@ else
 			{
 				image_index = 62;
 			}
+			global.vol_bar = image_index;
 		}
 	
 	if (keyboard_check(vk_left) = 1)
@@ -26,5 +27,7 @@ else
 			{
 				image_index = 1;
 			}
+			global.vol_bar = image_index;
 		}
+		
 	
