@@ -232,7 +232,7 @@
     ],
     "origin": 7,
     "originLocked": false,
-    "playbackSpeed": 12,
+    "playbackSpeed": 14,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
