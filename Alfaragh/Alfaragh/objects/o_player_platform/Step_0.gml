@@ -1,3 +1,5 @@
+global.player_xpos = x;
+global.player_ypos = y;
 gravity = 0;
 gravity_direction = 270;
 

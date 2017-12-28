@@ -234,7 +234,7 @@
             "Key": "4097342e-192d-48a9-b712-830c45c1af78",
             "Value": {
                 "id": "2b50741f-f079-476c-b4f0-7f944c4bac6e",
-                "resourcePath": "sprites\\s_heathbar\\s_heathbar.yy",
+                "resourcePath": "sprites\\s_healthbar\\s_healthbar.yy",
                 "resourceType": "GMSprite"
             }
         },
