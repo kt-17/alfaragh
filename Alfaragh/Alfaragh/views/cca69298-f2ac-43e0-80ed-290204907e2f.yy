@@ -4,6 +4,7 @@
     "mvc": "1.1",
     "name": "cca69298-f2ac-43e0-80ed-290204907e2f",
     "children": [
+<<<<<<< HEAD
         "3f28ed66-39e1-4f9a-afd0-33784547b2d1",
         "0f306063-2147-4702-8e36-39f960f39843",
         "d3c0bb9f-63ec-4b6e-8027-efda26e4592a",
@@ -16,9 +17,13 @@
         "c13c6318-a8b3-4c89-8b5c-205b20ec5139",
         "810785c6-afe0-49c0-9f39-b054e09a2739",
         "adb9306a-b791-4663-8c3f-4a8bca287cca"
+=======
+        "fbbcf310-6615-42e4-b5e7-8ae72508a480",
+        "a5759d40-a69b-4d8c-bb10-788644eaa91b"
+>>>>>>> ecee9e294f28952dd96253b65011a1d0699122a7
     ],
     "filterType": "GMSprite",
-    "folderName": "spr_interface",
+    "folderName": "Interface",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

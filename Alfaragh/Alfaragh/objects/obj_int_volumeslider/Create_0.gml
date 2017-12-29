@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.volume = 0;
+x = global.slide_pos;
+global.volume = global.set_vol;

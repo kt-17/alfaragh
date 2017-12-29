@@ -1,0 +1,1 @@
+x = global.player_xpos;

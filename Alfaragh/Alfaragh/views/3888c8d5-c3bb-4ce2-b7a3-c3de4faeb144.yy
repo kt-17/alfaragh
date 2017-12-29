@@ -11,7 +11,7 @@
         "e0c6bb81-9f0d-444a-91e3-0fb408492980"
     ],
     "filterType": "GMRoom",
-    "folderName": "rm_menu",
+    "folderName": "Menu",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
