@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-
-image_speed = 0;
-=======
 global.player_xpos = x;
 global.player_ypos = y;
->>>>>>> ecee9e294f28952dd96253b65011a1d0699122a7
 gravity = 0;
 gravity_direction = 270;
 
@@ -29,18 +24,7 @@ if keyboard_check(ord("D")) and !place_meeting(x+4, y, o_solid)
 	direction_facing_ = 1;
 } 
 
-<<<<<<< HEAD
- 
-  if keyboard_check(vk_escape)
- {
-	room_goto(5);
- }
-
-
-if not place_meeting(x,y+2, o_solid) 
-=======
 if mouse_check_button(mb_left)
->>>>>>> ecee9e294f28952dd96253b65011a1d0699122a7
 {
 	sprite_index = s_player_attack;
 	if image_index <= 8
