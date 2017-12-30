@@ -1,5 +1,3 @@
-global.player_xpos = x;
-global.player_ypos = y;
 image_speed = 0;
 sprite_index = s_rpg_player_run_down;
 sound_speed = 2;
