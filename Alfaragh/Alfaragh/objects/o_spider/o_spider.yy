@@ -13,7 +13,6 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "c7ee9eb4-f1c7-411f-a226-06ca98030e77"
-<<<<<<< HEAD
         },
         {
 <<<<<<< HEAD
@@ -28,8 +27,6 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "c7ee9eb4-f1c7-411f-a226-06ca98030e77"
-=======
->>>>>>> parent of bf789d1... organize
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

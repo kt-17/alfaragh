@@ -1,9 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of bf789d1... organize
 image_speed = 0;
 =======
 global.player_xpos = x;
@@ -36,7 +33,6 @@ if keyboard_check(ord("D")) and !place_meeting(x+4, y, o_solid)
 } 
 
 <<<<<<< HEAD
-<<<<<<< HEAD
  
   if keyboard_check(vk_escape)
  {
@@ -44,8 +40,6 @@ if keyboard_check(ord("D")) and !place_meeting(x+4, y, o_solid)
  }
 
 
-=======
->>>>>>> parent of bf789d1... organize
 if not place_meeting(x,y+2, o_solid) 
 =======
 if mouse_check_button(mb_left)
