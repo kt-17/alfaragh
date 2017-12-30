@@ -329,7 +329,7 @@
 >>>>>>> ecee9e294f28952dd96253b65011a1d0699122a7
             "Value": {
                 "id": "2b50741f-f079-476c-b4f0-7f944c4bac6e",
-                "resourcePath": "sprites\\s_heathbar\\s_heathbar.yy",
+                "resourcePath": "sprites\\s_healthbar\\s_healthbar.yy",
                 "resourceType": "GMSprite"
             }
         },
