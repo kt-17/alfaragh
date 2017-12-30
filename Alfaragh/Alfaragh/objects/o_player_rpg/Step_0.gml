@@ -51,6 +51,7 @@ if keyboard_check(ord("S")) and !place_meeting(x, y+4, o_solid)
 	room_goto(7);
  }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  
   if keyboard_check(vk_escape)
@@ -58,3 +59,10 @@ if keyboard_check(ord("S")) and !place_meeting(x, y+4, o_solid)
 	room_goto(1);
  }
 >>>>>>> ecee9e294f28952dd96253b65011a1d0699122a7
+=======
+ 
+  if place_meeting(x,y,o_rpg_portal)
+ {
+	room_goto(5);
+ }
+>>>>>>> parent of bf789d1... organize
