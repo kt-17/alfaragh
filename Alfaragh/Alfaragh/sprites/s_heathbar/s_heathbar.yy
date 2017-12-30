@@ -2,7 +2,7 @@
     "id": "4097342e-192d-48a9-b712-830c45c1af78",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_healthbar",
+    "name": "s_heathbar",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -1418,9 +1418,9 @@
             "visible": true
         }
     ],
-    "origin": 4,
+    "origin": 0,
     "originLocked": false,
-    "playbackSpeed": 0,
+    "playbackSpeed": 4,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
@@ -1429,6 +1429,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 64,
-    "xorig": 32,
-    "yorig": 5
+    "xorig": 0,
+    "yorig": 0
 }
