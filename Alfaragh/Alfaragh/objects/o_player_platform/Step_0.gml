@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of dca9a65... Revert "gg"
 
 =======
 >>>>>>> parent of bf789d1... organize
@@ -9,6 +12,8 @@ image_speed = 0;
 global.player_xpos = x;
 global.player_ypos = y;
 >>>>>>> ecee9e294f28952dd96253b65011a1d0699122a7
+=======
+>>>>>>> parent of ecee9e2... kms
 gravity = 0;
 gravity_direction = 270;
 
