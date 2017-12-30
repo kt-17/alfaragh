@@ -46,15 +46,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of dca9a65... Revert "gg"
 =======
 >>>>>>> parent of 7f89af8... gg
-=======
->>>>>>> parent of dca9a65... Revert "gg"
 =======
 >>>>>>> parent of dca9a65... Revert "gg"
                 {"name": "inst_28928C7C","id": "2372bb43-c679-443a-881d-ed19c87fea0c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_28928C7C","objId": "4aeaf4e9-1d4f-4899-809f-697312d2c39f","rotation": 0,"scaleX": 3.5,"scaleY": 3.5,"mvc": "1.0","x": 96,"y": 608},
@@ -91,9 +88,6 @@
 >>>>>>> ecee9e294f28952dd96253b65011a1d0699122a7
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of dca9a65... Revert "gg"
 =======
 >>>>>>> parent of dca9a65... Revert "gg"
 =======
@@ -118,12 +112,9 @@
                 {"name": "inst_69B65F2F","id": "9524c462-9ebd-43b0-bb6b-0af816443ee4","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_69B65F2F","objId": "993c43ad-140f-412a-a8d8-ebb207c8a13d","rotation": 0,"scaleX": 5,"scaleY": 5,"mvc": "1.0","x": 0,"y": 608}
 >>>>>>> parent of ecee9e2... kms
 <<<<<<< HEAD
-<<<<<<< HEAD
 >>>>>>> parent of dca9a65... Revert "gg"
 =======
 >>>>>>> parent of 7f89af8... gg
-=======
->>>>>>> parent of dca9a65... Revert "gg"
 =======
 >>>>>>> parent of dca9a65... Revert "gg"
             ],
