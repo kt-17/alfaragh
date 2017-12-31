@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "3118c394-f593-4659-8216-69a60c271f12",
+            "Value": {
+                "id": "517d361d-56c7-46ce-8599-bce71436e013",
+                "resourcePath": "objects\\o_gameover\\o_gameover.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3888c8d5-c3bb-4ce2-b7a3-c3de4faeb144",
             "Value": {
                 "id": "3debba76-e568-4a7a-9564-6287a46ab8fa",
@@ -468,6 +476,14 @@
                 "id": "a6caa6e6-daa9-4332-898c-8a5858dcff88",
                 "resourcePath": "objects\\obj_int_difficultybar\\obj_int_difficultybar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "87dfad59-f848-44df-bbaf-36f51209e4bd",
+            "Value": {
+                "id": "2d72af63-bdea-4f5e-9f35-d72f46ba0b85",
+                "resourcePath": "sprites\\s_overworld\\s_overworld.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -823,6 +839,14 @@
             }
         },
         {
+            "Key": "e252daf2-9a04-43ef-8c5f-cbebb6c93e38",
+            "Value": {
+                "id": "b0ae1713-22fc-44db-8a9c-350abd792abd",
+                "resourcePath": "objects\\o_portal_boss\\o_portal_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e4c89945-d385-472a-8bc0-4acebfb4b664",
             "Value": {
                 "id": "0453dd27-4d67-4540-ba4d-ac076206e7ff",
@@ -916,6 +940,14 @@
                 "id": "15db98c1-d5ad-4cf8-8e17-dcbe2ef7a7ba",
                 "resourcePath": "objects\\o_portal_level_1\\o_portal_level_1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f8db6376-78f9-4b53-8d82-18211ec79d59",
+            "Value": {
+                "id": "9833baf0-0343-4423-a849-fb3f6f0e2f73",
+                "resourcePath": "sounds\\snd_main_music\\snd_main_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
