@@ -1,111 +1,51 @@
-/*
-if place_meeting(x+10, y, o_player_platform)
+
+switch (state)
 {
-	x += 1;
-	image_xscale = 10;
+    case spdr.idle:
+    {
+        hspd = 0;
+        vspd = (min(7,vspd+0.05));
+        if (distance_to_object(o_player_platform) < 150) state = spdr.chase;
+    }
+    break;
+    case spdr.chase:
+    {
+        dir = sign(o_player_platform.x - x);
+        hspd = dir * 3;
+        vspd = (min(7,vspd+0.05));
+        if (distance_to_object(o_player_platform) > 300) state = spdr.idle;
+    }
+    break;
 }
 
-if place_meeting(x+9, y, o_player_platform)
+//Horizontal Collision
+if (place_meeting(round(x+hspd),round(y),o_solid))
 {
-	x += 1;
-	image_xscale = 10;
+    while(!place_meeting(round(x+sign(hspd)),round(y),o_solid)) x += sign(hspd);
+    hspd = 0;
+}
+x += hspd;
+
+//Vertical Collision
+if (place_meeting(round(x),round(y+vspd),o_solid))
+{
+    while(!place_meeting(round(x),round(y+sign(vspd)),o_solid)) y += sign(vspd);
+    vspd = 0;
+}
+y += vspd;
+
+if (place_meeting(x,y,o_player_platform)) && global.fight = 1
+{
+	sphealth -= .1
 }
 
-if place_meeting(x+8, y, o_player_platform)
+if sphealth <= 0 && death == 0
 {
-	x += 1;
-	image_xscale = 10;
+	sprite_index = s_spider_die;
+	image_speed = 1;
+	death = 1;
 }
-
-if place_meeting(x+7, y, o_player_platform)
+if death == 1
 {
-	x += 1;
-	image_xscale = 10;
+	instance_destroy()
 }
-
-if place_meeting(x+6, y, o_player_platform)
-{
-	x += 1;
-	image_xscale = 10;
-}
-
-if place_meeting(x+5, y, o_player_platform)
-{
-	x += 1;
-	image_xscale = 10;
-}
-
-if place_meeting(x+4, y, o_player_platform)
-{
-	x += 1;
-	image_xscale = 10;
-}
-
-if place_meeting(x+3, y, o_player_platform)
-{
-	x += 1;
-	image_xscale = 10;
-}
-
-if place_meeting(x+1, y, o_player_platform)
-{
-	x += 1;
-	image_xscale = 10;
-}
-
-if place_meeting(x-10, y, o_player_platform)
-{
-	x -= 1;
-	image_xscale = -10;
-}
-
-if place_meeting(x-9, y, o_player_platform)
-{
-	x -= 1;
-	image_xscale = -10;
-}
-
-if place_meeting(x-8, y, o_player_platform)
-{
-	x -= 1;
-	image_xscale = -10;
-}
-
-if place_meeting(x-7, y, o_player_platform)
-{
-	x -= 1;
-	image_xscale = -10;
-}
-
-if place_meeting(x-6, y, o_player_platform)
-{
-	x -= 1;
-	image_xscale = -10;
-}
-
-
-if place_meeting(x-5, y, o_player_platform)
-{
-	x -= 1;
-	image_xscale = -10;
-}
-
-if place_meeting(x-4, y, o_player_platform)
-{
-	x -= 1;
-	image_xscale = -10;
-}
-
-if place_meeting(x-3, y, o_player_platform)
-{
-	x -= 1;
-	image_xscale = -10;
-}
-
-if place_meeting(x-1, y, o_player_platform)
-{
-	x -= 1;
-	image_xscale = -10;
-}
-*/
-

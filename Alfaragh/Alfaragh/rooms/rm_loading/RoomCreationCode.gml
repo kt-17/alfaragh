@@ -8,12 +8,12 @@ global.player_health = 62;
 global.attack_damage = 5;
 global.slide2_pos = 455;
 global.diff_bar = 1;
-
+global.fight = 0;
 enum spdr
 {
 	patrol,
 	idle,
-	chase,
+	chase
 }
 
 

@@ -27,12 +27,14 @@ if keyboard_check(ord("D")) and !place_meeting(x+4, y, o_solid)
 if mouse_check_button_pressed(mb_left)
 {
 	sprite_index = s_player_attack;
-	image_speed = 1;
+	image_speed = 1.5;
+	global.fight = 1;
 }
 
 if mouse_check_button_released(mb_left)
 {
 	image_index = 0;
+	global.fight = 0;
 	if direction_facing_ == 1
 	{
 		sprite_index = s_player_run_left;
@@ -89,7 +91,7 @@ if place_meeting(x, y, o_skull) and !global.player_health <= 0
 	global.player_health -= .1;
 }
 
-if place_meeting(x, y, o_spider) and !global.player_health <= 0
+if place_meeting(x, y, o_spider) and !global.player_health <= 0 and global.fight = 0
 {
 	global.player_health -= .3;
 }
