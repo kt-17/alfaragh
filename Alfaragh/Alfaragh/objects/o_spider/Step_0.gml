@@ -34,18 +34,39 @@ if (place_meeting(round(x),round(y+vspd),o_solid))
 }
 y += vspd;
 
-if (place_meeting(x,y,o_player_platform)) && global.fight = 1
+if (place_meeting(x,y,o_player_platform)) && global.fight == 1
+{
+	sphealth -= .1
+}
+if (place_meeting(x-1,y,o_player_platform)) && global.fight == 1
+{
+	sphealth -= .1
+}
+if (place_meeting(x-2,y,o_player_platform)) && global.fight == 1
+{
+	sphealth -= .1
+}
+if (place_meeting(x-3,y,o_player_platform)) && global.fight == 1
+{
+	sphealth -= .1
+}
+
+if (place_meeting(x+1,y,o_player_platform)) && global.fight == 1
+{
+	sphealth -= .1
+}
+if (place_meeting(x+2,y,o_player_platform)) && global.fight == 1
+{
+	sphealth -= .1
+}
+if (place_meeting(x+3,y,o_player_platform)) && global.fight == 1
 {
 	sphealth -= .1
 }
 
 if sphealth <= 0 && death == 0
 {
-	sprite_index = s_spider_die;
-	image_speed = 1;
-	death = 1;
-}
-if death == 1
-{
-	instance_destroy()
+	instance_destroy();
+	global.level1enemycount -= 1;
+	global.level2enemycount -= 1;
 }

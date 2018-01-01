@@ -7,7 +7,7 @@ var _animation_speed = 1;
 change = clamp(change, 0, 1);;
 
 
-if keyboard_check(ord("A")) and !place_meeting(x-4, y, o_solid)
+if keyboard_check(ord("A")) and !place_meeting(x-4, y, o_solid) and !place_meeting(x-4, y, o_portal_2_block) and !place_meeting(x-4, y, o_portal_3_block)
 {
 	x=x-6;
 	sprite_index = s_rpg_player_run_left;
@@ -16,7 +16,7 @@ if keyboard_check(ord("A")) and !place_meeting(x-4, y, o_solid)
 	audio_counter -= change;
 }
 
-if keyboard_check(ord("D")) and !place_meeting(x+4, y, o_solid)
+if keyboard_check(ord("D")) and !place_meeting(x+4, y, o_solid) and !place_meeting(x+4, y, o_portal_2_block) and !place_meeting(x+4, y, o_portal_3_block)
 {
 	x=x+6;
 	sprite_index = s_rpg_player_run_left;
@@ -25,7 +25,7 @@ if keyboard_check(ord("D")) and !place_meeting(x+4, y, o_solid)
 	audio_counter -= change;
 }
 
-if keyboard_check(ord("W")) and !place_meeting(x, y-4, o_solid)
+if keyboard_check(ord("W")) and !place_meeting(x, y-4, o_solid) and !place_meeting(x, y-4, o_portal_2_block) and !place_meeting(x, y-4, o_portal_3_block)
 {
 	y=y-6;
 	sprite_index = s_rpg_player_run_up;
@@ -34,7 +34,7 @@ if keyboard_check(ord("W")) and !place_meeting(x, y-4, o_solid)
 
 }
 
-if keyboard_check(ord("S")) and !place_meeting(x, y+4, o_solid)
+if keyboard_check(ord("S")) and !place_meeting(x, y+4, o_solid) and !place_meeting(x, y+4, o_portal_2_block) and !place_meeting(x, y+4, o_portal_3_block)
 {
 	y=y+6;
 	sprite_index = s_rpg_player_run_down;
