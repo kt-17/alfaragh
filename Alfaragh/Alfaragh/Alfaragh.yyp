@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "3b0f113d-0de5-42c1-99f0-f481354c5e8c",
+            "Value": {
+                "id": "98c03acb-5002-463a-b2e2-2c1b46c8af9d",
+                "resourcePath": "objects\\o_goal_boss\\o_goal_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3b7bf18f-4006-4bad-b6dc-0f898a997be1",
             "Value": {
                 "id": "a4e016a0-b687-4b0d-98b9-223acdbb9a58",

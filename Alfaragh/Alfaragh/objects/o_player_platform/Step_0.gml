@@ -102,6 +102,11 @@ if global.level2enemycount == 0
 	instance_activate_object(o_goal_level_2);
 }
 
+if global.boss_health <= 0
+{
+	instance_activate_object(o_goal_boss);
+}
+
 if place_meeting(x, y, o_skull) and !global.player_health <= 0 and !mouse_check_button(mb_middle)
 {
 	global.player_health -= .1;
@@ -112,7 +117,7 @@ if place_meeting(x, y, o_spider) and !global.player_health <= 0 and !mouse_check
 	global.player_health -= .3;
 }
 
-if place_meeting(x, y, o_boss) and !global.player_health <= 0 and !mouse_check_button(mb_middle)
+if place_meeting(x, y, o_boss) and sprite_index == s_player_attack
 {
-	global.player_health -= 1;
+	global.boss_health -= 1.3;
 }

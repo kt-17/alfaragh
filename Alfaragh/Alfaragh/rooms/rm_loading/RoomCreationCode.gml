@@ -11,7 +11,8 @@ global.diff_bar = 1;
 global.fight = 0;
 
 global.level1won = false;
-global.level2won = false;
+global.level2won = true;
+global.levelbosswon = false;
 
 global.level1enemycount = 4;
 global.level2enemycount = 12;

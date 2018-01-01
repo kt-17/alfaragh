@@ -57,3 +57,8 @@ if keyboard_check(ord("S")) and !place_meeting(x, y+4, o_solid) and !place_meeti
  {
 	room_goto(1);
  }
+
+if global.levelbosswon == true
+{
+	instance_activate_object(o_health_pack);
+}

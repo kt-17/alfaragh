@@ -5,3 +5,4 @@ global.player_health = 4;
 vspd = 0;
 grav = 0.3;
 jump = 0;
+direction_facing_ = 0;
