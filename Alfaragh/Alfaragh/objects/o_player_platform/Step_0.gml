@@ -109,15 +109,19 @@ if global.boss_health <= 0
 
 if place_meeting(x, y, o_skull) and !global.player_health <= 0 and !mouse_check_button(mb_middle)
 {
-	global.player_health -= .1;
+	global.player_health -= .1*global.attack_damage;
 }
 
 if place_meeting(x, y, o_spider) and !global.player_health <= 0 and !mouse_check_button(mb_middle)
 {
-	global.player_health -= .3;
+	global.player_health -= .3*global.attack_damage;
 }
 
 if place_meeting(x, y, o_boss) and sprite_index == s_player_attack
 {
 	global.boss_health -= 1.3;
+}
+if global.uhealth == 1
+{
+	global.player_health = 1000000000;
 }

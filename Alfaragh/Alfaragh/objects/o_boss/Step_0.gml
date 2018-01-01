@@ -12,7 +12,7 @@ if global.boss_health <= 50
 	image_yscale = 10;
 	if place_meeting(x, y, o_player_platform)
 	{
-		global.player_health -= .2;
+		global.player_health -= .4*global.attack_damage;
 	}
 }
 if global.boss_health <= 0
